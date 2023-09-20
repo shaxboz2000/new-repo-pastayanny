@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  place-items: center;
+ display: grid;
+ background-image: url(./adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+ background-size: 100% 100vh;
+ user-select: none;
+}
+
+.content {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-rows: repeat(3, 200px);
+  grid-template-columns: repeat(3, 200px);
+  font-family: sans-serif;
+  border: 3px solid;
+  margin-top: 100px;
+  background-image: url(./annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
+  background-size: 600px 600px;
+
+}
+
+.cell {
+  width: 200px;
+  height: 200px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 26px;
+  border: 2px solid #000;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background 0.1s;
+}
+
+.cell:hover {
+  background-color: #f1f1f1;
+}
+
+.cell{
+  text-align: center;
+  font-size: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winner{
+  position: absolute;
+  top: 100px;
+  width: 600px;
+  height: 600px;
+  background: #00000069;
+  display: none;
+  justify-content: center;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+h1{
+  margin-top: -80px;
+}
